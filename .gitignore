@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.db-journal
+env/
+venv/
+.venv/
+ENV/
+PyCharm*/
+
+# FastAPI / backend
+notification_app_be/database.db
+notification_app_be/__pycache__/
+notification_app_be/*.pyc
+
+# Node / frontend
+node_modules/
+notification_app_fe/node_modules/
+notification_app_fe/dist/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
